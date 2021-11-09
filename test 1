@@ -1,0 +1,186 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ScriptByTruyem789 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local NightHub = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.0384254903, 0, 0.464285791, 0)
+Open.Size = UDim2.new(0, 112, 0, 34)
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "OPEN"
+Open.TextColor3 = Color3.fromRGB(255, 99, 253)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+UICorner.Parent = Open
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(166, 12, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(48, 161, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 187, 255))}
+UIGradient.Parent = Open
+
+TextLabel.Parent = Open
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.244611055, 0, 0.101190478, 0)
+Frame.Size = UDim2.new(0, 544, 0, 397)
+Frame.Visible = false
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(166, 12, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 187, 255))}
+UIGradient_2.Parent = Frame
+
+UICorner_2.Parent = Frame
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.906072497, 0, 0.0236716475, 0)
+Close.Size = UDim2.new(0, 40, 0, 39)
+Close.Selected = true
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextWrapped = true
+
+UICorner_3.Parent = Close
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_3.Parent = Close
+
+TextLabel_2.Parent = Close
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00461530685, 0, 0.00999998301, 0)
+TextLabel_2.Size = UDim2.new(1, 0, 0.970769167, 0)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "X"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.027952509, 0, 0.0379082896, 0)
+ImageLabel.Size = UDim2.new(0, 52, 0, 42)
+ImageLabel.Image = "rbxassetid://7660168856"
+
+UICorner_4.Parent = ImageLabel
+
+ScriptByTruyem789.Name = "Script By Truyem789"
+ScriptByTruyem789.Parent = Frame
+ScriptByTruyem789.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptByTruyem789.BackgroundTransparency = 1.000
+ScriptByTruyem789.BorderSizePixel = 0
+ScriptByTruyem789.Position = UDim2.new(0.203866735, 0, 0.0587442257, 0)
+ScriptByTruyem789.Size = UDim2.new(0, 337, 0, 34)
+ScriptByTruyem789.Font = Enum.Font.SourceSansBold
+ScriptByTruyem789.Text = "Script By Truyem789"
+ScriptByTruyem789.TextColor3 = Color3.fromRGB(255, 99, 253)
+ScriptByTruyem789.TextScaled = true
+ScriptByTruyem789.TextSize = 14.000
+ScriptByTruyem789.TextWrapped = true
+
+UICorner_5.Parent = ScriptByTruyem789
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(166, 12, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(48, 161, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 187, 255))}
+UIGradient_4.Parent = ScriptByTruyem789
+
+NightHub.Name = "Night Hub"
+NightHub.Parent = Frame
+NightHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NightHub.BorderSizePixel = 0
+NightHub.Position = UDim2.new(0.0604843125, 0, 0.310633391, 0)
+NightHub.Size = UDim2.new(0, 112, 0, 34)
+NightHub.Font = Enum.Font.SourceSansBold
+NightHub.Text = "Night Hub"
+NightHub.TextColor3 = Color3.fromRGB(255, 99, 253)
+NightHub.TextScaled = true
+NightHub.TextSize = 14.000
+NightHub.TextWrapped = true
+NightHub..MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Night_Script/main/BloxFruit.lua"))()
+end)
+
+UICorner_6.Parent = NightHub
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 247, 247))}
+UIGradient_5.Parent = NightHub
+
+TextLabel_3.Parent = NightHub
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+-- Scripts:
+
+local function UCTNDA_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local frame = script.Parent.Parent.Frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+	
+end
+coroutine.wrap(UCTNDA_fake_script)()
+local function NVPK_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+	
+end
+coroutine.wrap(NVPK_fake_script)()
+local function RMAWHWN_fake_script() -- NightHub.LocalScript 
+	local script = Instance.new('LocalScript', NightHub)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Night_Script/main/BloxFruit.lua"))()
+end
+coroutine.wrap(RMAWHWN_fake_script)()
